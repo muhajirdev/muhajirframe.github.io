@@ -1,7 +1,8 @@
 ---
-layout: blog
+layout: page
 title: Blog
 permalink: /blog/
+gambar: https://cdn4.iconfinder.com/data/icons/flat-icon-set/2133/flat_icons-graficheria.it-12.png
 ---
 <section>
 	<div class="container">
