@@ -1,0 +1,13 @@
+---
+title : Coming Soon
+layout: home
+modal-id: 6
+date: 2014-07-15
+img: submarine.png
+alt: image-alt
+project-date: Agustus 2015
+client: PandawaAdventure.com
+category: Web Development
+description: Coming Soon
+
+---

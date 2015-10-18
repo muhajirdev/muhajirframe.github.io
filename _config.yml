@@ -1,14 +1,46 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Muhammad Muhajir
+email: muhajirframe@gmail.com
+url: https://muhajir.fossframe.com
+description: "This is just another Muhajir's Personal Blog whcih contains his thoughts, stories and ideas."
+skills: "Thoughts, stories and ideas. - IT enthusiast"
+
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Muhajir Foundation
+  location: Location
+  social: Contact
+  credits: About
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/_muhajir_
+  - title: facebook
+    url: http://www.facebook.com/muhajir.mp
+  - title: github
+    url: http://github.com/muhajirframe
+  - title: envelope
+    url: mailto:muhajirframe@gmail.com
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Jln. Tgk Abdullah, No. 20 Peukan Bada
+  - line: Aceh Besar, Aceh, Indonesia
+
+# Credits content
+credits: "Just Another Muhajir's Blog"
 
 # Build settings
 markdown: kramdown
+permalink: pretty
