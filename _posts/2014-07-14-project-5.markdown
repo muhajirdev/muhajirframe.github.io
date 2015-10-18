@@ -3,7 +3,7 @@ title: Coming Soon
 layout: home
 modal-id: 5
 date: 2014-07-14
-img: safe.png
+img: cabin.png
 alt: image-alt
 project-date: Soon
 client: You

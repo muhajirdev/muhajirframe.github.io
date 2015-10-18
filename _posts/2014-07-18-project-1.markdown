@@ -3,11 +3,12 @@ title : PandawaAdventure.com
 layout: home
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
+img: bello.jpg
 alt: image-alt
 project-date: April 2014
-client: Pandawa Adventure
+client: Pandawa Adventure Team
+webclient: http://pandawaadventure.com
 category: Web Development
-description:
+description: 
 
 ---
