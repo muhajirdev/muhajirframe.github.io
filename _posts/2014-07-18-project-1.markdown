@@ -10,7 +10,7 @@ client: Pandawa Adventure Team
 webclient: http://pandawaadventure.com
 category: Web Development
 description: Hi, This is My first Experimental Post.
+gambar: /img/jempol.png
 
 ---
-There's nothing here.
-This is just a Test
+Hi.. There's nothing here. This is just experimental post
