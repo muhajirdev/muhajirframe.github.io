@@ -1,6 +1,6 @@
 ---
-title : PandawaAdventure.com
-layout: home
+title : Launched
+layout: post
 modal-id: 1
 date: 2014-07-18
 img: bello.jpg
@@ -9,6 +9,8 @@ project-date: April 2014
 client: Pandawa Adventure Team
 webclient: http://pandawaadventure.com
 category: Web Development
-description: 
+description: Hi, This is My first Experimental Post.
 
 ---
+There's nothing here.
+This is just a Test

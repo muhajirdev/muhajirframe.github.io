@@ -449,8 +449,30 @@ footer .footer-below {
 }
 
 // Fix modal mouse wheel issues
-// https://github.com/twbs/bootstrap/issues/16297 
+// https://github.com/twbs/bootstrap/issues/16297
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+.post-list h2 {
+  font-size: 26px;
+  margin-bottom: 13.5px;
+}
+.post-list p {
+  font-size : 18px;
+}
+.post-list hr {
+  margin-top: 2em;
+  margin-bottom :3em;
+}
+.post-meta {
+  color : #848484;
+}
+@media(max-width:767px) {
+    .post-list h2 {
+      font-size: 20px;
+    }
+    .post-list p {
+      font-size : 15px;
+    }
 }

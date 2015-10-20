@@ -6,7 +6,7 @@
 
                     <img class="img-responsive" src="{% if page.gambar %}{{ page.gambar }}{% else %}/img/profile.png{% endif %}" alt="{{page.gambar}}" width="256" height="256">
                     <div class="intro-text">
-                        <span class="name">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</span>
+                        <h1 class="name">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                         <hr class="star-light">
                         <span class="skills">{% if page.skills %}{{ page.skills }}{% else %}{{ site.skills }}{% endif %}</span>
                     </div>
