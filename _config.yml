@@ -2,6 +2,7 @@
 title: Muhammad Muhajir
 email: muhajirframe@gmail.com
 url: https://muhajir.fossframe.com
+baseurl: "" #subpath,e.g. muhajir.fossframe.com/shop => baseurl="/shop"
 description: "This is just another Muhajir's Personal Blog whcih contains his thoughts, stories and ideas."
 skills: "Thoughts, stories and ideas. - IT enthusiast"
 
@@ -43,4 +44,4 @@ credits: "Just Another Handsome Website"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /blog/:title/
