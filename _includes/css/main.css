@@ -459,7 +459,7 @@ footer .footer-below {
   margin-bottom: 13.5px;
 }
 .post-list p {
-  font-size : 18px;
+  font-size : 1.25em;
 }
 .post-list hr {
   margin-top: 2em;
@@ -472,7 +472,5 @@ footer .footer-below {
     .post-list h2 {
       font-size: 20px;
     }
-    .post-list p {
-      font-size : 15px;
-    }
+
 }

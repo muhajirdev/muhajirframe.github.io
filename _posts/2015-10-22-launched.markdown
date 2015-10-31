@@ -5,7 +5,7 @@ modal-id: 1
 date: 2014-07-18
 img: bello.jpg
 alt: image-alt
-project-date: April 2014
+project-date: ""
 client: Pandawa Adventure Team
 webclient: http://pandawaadventure.com
 category: Web Development
@@ -13,4 +13,4 @@ description: Hi, This is My first Experimental Post.
 gambar: /img/jempol.png
 
 ---
-Hi.. There's nothing here. This is just experimental post
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius aliquam mattis. In vulputate hendrerit placerat. Lorem ipsum dolor sit amet, consectetur
