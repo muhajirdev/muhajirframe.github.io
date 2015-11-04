@@ -9,8 +9,7 @@ project-date: ""
 client: Pandawa Adventure Team
 webclient: http://pandawaadventure.com
 category: Web Development
-description: Hi, This is My first Experimental Post.
-gambar: /img/jempol.png
-
+description: "Di bawah setiap pokok zaqqum mempunyai 70.000 ekor ular. Di dalam mulut setiap ular yang panjangnya 70 hasta mengandung lautan racun yang hitam pekat. Dan di bawah setiap pokok zaqqum terdapat 70.000 rantai. Setiap rantai diseret oleh 70.000 malaikat"
+gambar: /img/koran.png
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius aliquam mattis. In vulputate hendrerit placerat. Lorem ipsum dolor sit amet, consectetur
