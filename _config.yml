@@ -45,3 +45,6 @@ credits: "Just Another Handsome Website"
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
+
+gems :
+ - jemoji
