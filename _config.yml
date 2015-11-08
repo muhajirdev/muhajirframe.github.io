@@ -49,3 +49,8 @@ permalink: /blog/:title/
 gems :
   - jemoji
 
+prose:
+  siteurl: 'http://muhajir.fossframe.com'
+  media: 'img'
+
+
