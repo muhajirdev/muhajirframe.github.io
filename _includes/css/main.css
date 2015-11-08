@@ -461,6 +461,9 @@ footer .footer-below {
 .post-list p {
   font-size : 1.25em;
 }
+.post-list img {
+  display:block;width:100% \9;max-width:100%;height:auto
+}
 .post-list hr {
   margin-top: 2em;
   margin-bottom :3em;
