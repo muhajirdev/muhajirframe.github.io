@@ -48,3 +48,4 @@ permalink: /blog/:title/
 
 gems :
   - jemoji
+
