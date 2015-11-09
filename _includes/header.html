@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12">
 
-                    <img class="img-responsive" src="{% if page.gambar %}{{ page.gambar }}{% else %}/img/profile.png{% endif %}" alt="{{page.gambar}}" width="256" height="256">
+                    <img class="img-responsive" src="{% if page.gambar %}{{ page.gambar }}{% endif %}" alt="{{page.alt}}" width="256" height="256">
                     <div class="intro-text">
                         <h1 class="name">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                         <hr class="star-light">

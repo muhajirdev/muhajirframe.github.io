@@ -1,0 +1,28 @@
+<!-- Header -->
+<header {% if page.gambar %}
+  style="background: url({{ page.gambar }}) 50%  repeat ;"
+{% endif %}>
+  <div {% if page.gambar %} class="itam" {% endif %}>
+		<div class="container">
+				<div class="row">
+						<div class="col-lg-12">
+								<div class="intro-text">
+										<h1 class="title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+
+								</div>
+						</div>
+				</div>
+				<div class="row">
+					<hr class="garis">
+				</div>
+				<div class="row sub">
+					<div class="col-xs-6">
+						{{ page.date | date: " %d %-b %Y" }}
+					</div>
+					<div class="col-xs-6">
+					  {{ page.category }}
+					</div>
+				</div>
+		</div>
+  </div>
+</header>

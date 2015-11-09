@@ -1,44 +1,46 @@
----
-layout: blog
-published: true
----
-
-
-
-
-
-
-<section>
-	<div class="container">
-		<div class="row">
-			<div class=" col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2  post-list">
-        {{content}}
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav2.html %}
+    {% include header-post.html %}
+		<div>
+			<div class="container">
+				<div class="row">
+					<div class=" col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2  post-list">
+            <div class="content">
+              {{content}}
+            </div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<div class="row">
-			<div class=" col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2  post-list">
-        <div id="disqus_thread"></div>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class=" col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2  post-list">
+		        <div id="disqus_thread"></div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-</section>
-<script>
-var disqus_config = function () {
-  this.page.url = 'http://muhajir.fossframe.com{{ page.url }}' ;
-  this.page.identifier = '{{ page.id }}' ; 
-};
+		</section>
+		<script>
+		var disqus_config = function () {
+		  this.page.url = 'http://muhajir.fossframe.com{{ page.url }}' ;
+		  this.page.identifier = '{{ page.id }}' ;
+		};
 
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
 
-  s.src = 'http://muhajirframe.disqus.com/embed.js';
+		  s.src = 'http://muhajirframe.disqus.com/embed.js';
 
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>
