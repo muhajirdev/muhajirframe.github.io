@@ -4,7 +4,7 @@ email: muhajirframe@gmail.com
 url: https://muhajir.fossframe.com
 baseurl: "" #subpath,e.g. muhajir.fossframe.com/shop => baseurl="/shop"
 description: "This is just another Muhajir's Personal Blog whcih contains his thoughts, stories and ideas."
-skills: "Thoughts, stories and ideas. - IT enthusiast"
+skills: "Thoughts, stories and ideas."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
